@@ -29,6 +29,12 @@ def mostrar_fps(imag, start,frames,font):
 
 def chorradita():
     print('Me vais a comer el rabillo')
+    print('Me vais a comer el rabo duro duro')
+
+def otracosa():
+    print('\n')
+    print('Te amo Pily yes')
+    print('Una ultima prueba')
 
 def bounding_boxes(outs,width,height,colors,frame,classes,font,objeto):
 
