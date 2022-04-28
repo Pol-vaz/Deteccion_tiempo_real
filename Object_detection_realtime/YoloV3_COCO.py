@@ -20,12 +20,22 @@ def cargar_modelo_YoloV3(pesos,config,carga_clases):
     return model,colors,output_layers,classes
 
 def mostrar_fps(imag, start,frames,font):
+    #este metodo sirve para algo
     elapsed_time = time.time() - start
     fps = frames / elapsed_time
 
     cv2.putText(imag, "FPS: " + str(round(fps, 2)), (10, 50), font, 2, (0, 0, 0), 1)
 
+def chorradita():
+    print('Me vais a comer el rabillo')
+    print('Me vais a comer el rabo duro duro')
+
+def otracosa():
+    print('\n')
+    print('Te amo Pily yes')
+
 def bounding_boxes(outs,width,height,colors,frame,classes,font,objeto):
+
     class_ids = []
     confidences = []
     boxes = []
