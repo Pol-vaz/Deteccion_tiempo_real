@@ -20,6 +20,7 @@ def cargar_modelo_YoloV3(pesos,config,carga_clases):
     return model,colors,output_layers,classes
 
 def mostrar_fps(imag, start,frames,font):
+    #este metodo sirve para algo
     elapsed_time = time.time() - start
     fps = frames / elapsed_time
 
