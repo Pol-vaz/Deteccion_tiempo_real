@@ -32,7 +32,7 @@ def chorradita():
 
 def otracosa():
     print('\n')
-    print('Te amo Pily')
+    print('Te amo Pily yes')
 
 def bounding_boxes(outs,width,height,colors,frame,classes,font,objeto):
 
