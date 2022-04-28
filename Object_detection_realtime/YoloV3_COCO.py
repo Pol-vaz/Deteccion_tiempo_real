@@ -25,11 +25,14 @@ def mostrar_fps(imag, start,frames,font):
     fps = frames / elapsed_time
 
     cv2.putText(imag, "FPS: " + str(round(fps, 2)), (10, 50), font, 2, (0, 0, 0), 1)
+def chorradita():
+    print('Me vais a comer el rabillo')
 
 def chorradita():
     print('Me vais a comer el rabillo')
 
 def bounding_boxes(outs,width,height,colors,frame,classes,font,objeto):
+
     class_ids = []
     confidences = []
     boxes = []
